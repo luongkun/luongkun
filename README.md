@@ -73,10 +73,10 @@ const luong = {
 
 <p align="center">
   <a href="https://github.com/luongkun">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=luongkun&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=c75ed8&icon_color=ff5e95&text_color=4a4a68&bg_color=00000000&ring_color=7d56e8" alt="stats"/>
+    <img height="170" src="https://github-readme-stats-phi-pied.vercel.app/api?username=luongkun&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=c75ed8&icon_color=ff5e95&text_color=4a4a68&bg_color=00000000&ring_color=7d56e8&cache_seconds=14400" alt="stats"/>
   </a>
   <a href="https://github.com/luongkun">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luongkun&layout=compact&hide_border=true&langs_count=8&title_color=c75ed8&text_color=4a4a68&bg_color=00000000" alt="top langs"/>
+    <img height="170" src="https://github-readme-stats-phi-pied.vercel.app/api/top-langs/?username=luongkun&layout=compact&hide_border=true&langs_count=8&title_color=c75ed8&text_color=4a4a68&bg_color=00000000&cache_seconds=14400" alt="top langs"/>
   </a>
 </p>
 
