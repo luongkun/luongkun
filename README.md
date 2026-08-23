@@ -4,10 +4,7 @@
 -->
 
 <a href="https://luongkun.github.io/portfolio/">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:ff5e95,50:c75ed8,100:7d56e8&height=220&section=header&text=Lương%20Senpai.&fontSize=68&fontAlign=70&fontAlignY=38&fontColor=ffffff&desc=turning%20%22ideas%22%20%E2%86%92%20%22products%22.&descAlign=70&descAlignY=62&descSize=18&animation=fadeIn"
-    alt="Banner"
-  />
+  <img src="./profile-banner.svg" alt="Hello, I'm Nguyen The Luong" width="100%" />
 </a>
 
 <p align="center">

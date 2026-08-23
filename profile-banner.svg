@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" fill="none" role="img" aria-label="Hello, I'm Nguyen The Luong">
+  <defs>
+    <!-- Cyan -> lavender -> pink gradient (matches reference) -->
+    <linearGradient id="bg" x1="0" y1="0.2" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#bd93e8"/>
+      <stop offset="100%" stop-color="#fb5dd6"/>
+    </linearGradient>
+
+    <!-- Soft top sheen -->
+    <radialGradient id="sheen" cx="0.5" cy="0" r="0.85">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.28)"/>
+      <stop offset="60%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+
+    <!-- Subtle text shadow -->
+    <filter id="ds" x="-5%" y="-20%" width="110%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="rgba(80,20,110,0.28)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#sheen)"/>
+
+  <!-- Name -->
+  <text x="600" y="182" text-anchor="middle" filter="url(#ds)"
+        font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="64" font-weight="800" letter-spacing="-0.5" fill="#ffffff">Hello, I'm Nguyen The Luong</text>
+
+  <!-- Layered waves (gentle bob) -->
+  <g>
+    <path d="M0,286 C160,258 360,314 600,286 C840,258 1040,314 1200,286 L1200,340 L0,340 Z" fill="rgba(255,255,255,0.14)"/>
+    <path d="M0,302 C210,276 410,326 600,300 C790,276 1000,326 1200,302 L1200,340 L0,340 Z" fill="rgba(255,255,255,0.24)"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </g>
+</svg>
